@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/*  Модуль 1. Линейные программы. Задача 5
 Дано натуральное число, которое представляет длительность прошедшего времени в секундах.
 Вывести данное значение длительности в часах, минутах и секундах в формате HHч MMмин SSс.
  */
@@ -23,21 +23,8 @@ public class Task05 {
 		t/=60;
 		m=(byte)(t%60);
 		t/=60;
-				
-		if (t<10)
-			System.out.print("Прошло 0"+t+"ч " );
-		else 
-			System.out.print("Прошло "+t+"ч " );
 		
-		if (m<10)
-			System.out.print("0"+m+"мин " );
-		else 
-			System.out.print(m+"мин " );
-		
-		if (s<10)
-			System.out.print("0"+s+"c" );
-		else 
-			System.out.print(s+"c " );
+		System.out.printf("Прошло %02dч %02dмин %02dс",t,m,s );
 
 	}
 

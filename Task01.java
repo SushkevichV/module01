@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Линейные программы. Задача 1
 Найдите значение функции: z=((a-3)*b/2)+c
  */
 public class Task01 {

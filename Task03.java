@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Линейные программы. Задача 3
 Вычислиить значение выражения по формуле 
 (sin x + cos y) / (cos x - sin y) * tg xy
  */

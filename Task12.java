@@ -1,6 +1,6 @@
 package by.epam.jonline.module01;
 
-/*
+/* Модуль 1. Ветвления. Задача 2
  Найти max{min(a, b), min(c, d)} 
  */
 
@@ -17,7 +17,7 @@ public class Task12 {
 		c=(int)(Math.random()*1000);
 		d=(int)(Math.random()*1000);
 		
-		System.out.println("Находит max{min(a, b), min(c, d)} из случайных чисел в диапазоне до 1000");
+		System.out.println("Находит max{min(a, b), min(c, d)} из случайных чисел в диапазоне от 0 до 1000");
 		System.out.println();
 		System.out.println("a = " + a);
 		System.out.println("b = " + b);

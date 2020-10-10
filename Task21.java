@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Циклы. Задача 1
  * Программа суммирует все числа от 1 до введенного пользователем числа
  */
 
@@ -19,16 +19,18 @@ public class Task21 {
 		System.out.println("Программа суммирует все числа от 1 до введенного пользователем числа");
 		System.out.println();
 		
-		while (i<1)
+		while (i<1) {
 			i=console();
+		}
 		
 		for (x=1; x<=i; x++) {
 			if (x>2147483647-sum) {
 				System.out.println("Число слишком большое!");
 				break;
 			}
-			else
+			else {
 				sum+=x;
+			}
 		}
 		
 		System.out.println("Сумма чисел от 1 до " + (x-1) + " = " + sum); // Если сумма превысит предел Int, вывести сумму чисел от 1 до числа,

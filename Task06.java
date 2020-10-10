@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Задача 6
 Для данной области составить программу, которая печатает true, если точка с координатами (x, y)
 принадлежит закрашенной области, и false - в противном случае
  */
@@ -20,7 +20,7 @@ public class Task06 {
 		x = console('x');
 		y = console('y');
 		
-if ((x >= -4) && (x <= 4)) {
+		if ((x >= -4) && (x <= 4)) {
 			if ((y >= -3) && (y <= 0)) {
 				System.out.println("True");
 			}

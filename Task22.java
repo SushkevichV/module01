@@ -1,6 +1,6 @@
 package by.epam.jonline.module01;
 
-/*
+/* Модуль 1. Циклы. Задача 2
  * Вычислить значение функции на отрезке [a,b] с шагом h
  */
 
@@ -19,10 +19,12 @@ public class Task22 {
 		System.out.println("Вычислить значение функции на отрезке ["+a+","+b+"] с шагом "+h);
 		
 		for (x=a; x<=b; x+=h) {
-			if (x>2)
+			if (x>2) {
 				System.out.println("x = " + x + ", y = " + x);
-			else
+			}
+			else {
 				System.out.println("x = " + x + ", y = " + -x);
+			}
 		}
 
 	}

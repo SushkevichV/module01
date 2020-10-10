@@ -1,6 +1,6 @@
 package by.epam.jonline.module01;
 
-/*
+/* Модуль 1. Циклы. Задача 8
  * Даны два числа. Определить цифры, входящие в запись как первого, так и второго числа
  */
 public class Task28 {
@@ -28,8 +28,9 @@ public class Task28 {
 			t=b;
 			while (t>0) {
 				j=t%10;
-				if (i==j)
+				if (i==j) {
 					System.out.print(i +" ");
+				}
 				t/=10;
 			}
 			a/=10;

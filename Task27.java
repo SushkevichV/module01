@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Циклы. Задача 7
  * Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа
  */
 
@@ -22,8 +22,9 @@ public class Task27 {
 		for (i=m; i<=n; i++) {
 			System.out.print("Делители числа "+ i +" : ");
 			for (j=2; j<i; j++) {
-				if (i%j==0)
+				if (i%j==0) {
 					System.out.print(j +" ");
+				}
 			}
 			System.out.println();
 		}

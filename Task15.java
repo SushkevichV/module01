@@ -1,6 +1,6 @@
 package by.epam.jonline.module01;
 
-/*
+/* Модуль 1. Ветвления. Задача 5
  * Вычислить значение функции
  */
 public class Task15 {
@@ -14,10 +14,12 @@ public class Task15 {
 		System.out.println();
 		System.out.println("x = " + x);
 		
-		if (x<=3)
+		if (x<=3) {
 			x=Math.pow(x, 2)-3*x+9;
-		else
+		}
+		else {
 			x=1/(Math.pow(x, 3)+6);
+		}
 		
 		System.out.println("F(x) = " + x);
 

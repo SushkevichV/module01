@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Ветвления. Задача 4
 Заданы размеры прямоугольного отверстия и размеры кирпича. Определить, пройдет ли
 кирпич через отверстие. 
 */
@@ -28,25 +28,37 @@ public class Task14 {
 		a=console("высоту");
 		b=console("ширину");
 		
-		if ((a>=x) && (b>=y))  
+		if ((a>=x) && (b>=y)) { 
 			System.out.println("Кирпич проходит через отверстие");
-		else
-		if ((a>=x) && (b>=z))  
-			System.out.println("Кирпич проходит через отверстие");
-		else
-		if ((a>=y) && (b>=z))  
-			System.out.println("Кирпич проходит через отверстие");
-		else
-		if ((a>=y) && (b>=x))  
-			System.out.println("Кирпич проходит через отверстие");
-		else
-		if ((a>=z) && (b>=x))  
-			System.out.println("Кирпич проходит через отверстие");
-		else
-		if ((a>=z) && (b>=y))  
-			System.out.println("Кирпич проходит через отверстие");
-		else
-			System.out.println("Кирпич не проходит через отверстие");
+		}
+		else {
+			if ((a>=x) && (b>=z)) {  
+				System.out.println("Кирпич проходит через отверстие");
+			}
+			else {
+				if ((a>=y) && (b>=z)) {  
+					System.out.println("Кирпич проходит через отверстие");
+				}
+				else {
+					if ((a>=y) && (b>=x)) {  
+						System.out.println("Кирпич проходит через отверстие");
+					}
+					else {
+						if ((a>=z) && (b>=x)) {  
+							System.out.println("Кирпич проходит через отверстие");
+						}
+						else {
+							if ((a>=z) && (b>=y)) {  
+								System.out.println("Кирпич проходит через отверстие");
+							}
+							else {
+								System.out.println("Кирпич не проходит через отверстие");
+							}
+						}
+					}
+				}
+			}
+		}
 
 	}
 

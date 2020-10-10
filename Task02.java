@@ -2,7 +2,7 @@ package by.epam.jonline.module01;
 
 import java.util.Scanner;
 
-/*
+/* Модуль 1. Линейные программы. Задача 2
 Вычислиить значение выражения по формуле 
  */
 
