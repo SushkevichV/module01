@@ -28,7 +28,8 @@ public class Task13 {
 		System.out.println("Точка C с координатами " + x3 + ", " + y3);
 		System.out.println();
 		
-		if ((double)(x2-x1)/(double)(x3-x1)==(double)(y2-y1)/(double)(y3-y1)) {
+		//if ((double)(x2-x1)/(double)(x3-x1)==(double)(y2-y1)/(double)(y3-y1)) {
+		if((x1-x3)*(y2-y3)==(x2-x3)*(y1-y3)) {
 			System.out.println("Точки лежат на одной прямой");
 		}
 		else {
